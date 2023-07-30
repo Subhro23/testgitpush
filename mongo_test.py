@@ -10,9 +10,17 @@ d = {
     "address" : "kolkata"
 }
 
+d = {
+    "name" : "subhra",
+    "address" : "kolkata"
+}
+
+
 db2=client["mongo_test"]
 coll=db2["test"]
 coll.insert_one(d)
+
+
 
 
 
